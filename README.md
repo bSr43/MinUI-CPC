@@ -1,10 +1,12 @@
 # Amstrad CPC emulator for MinUI / NextUI
 
-This release if the for TrimUI Brick.
+This release is for the TrimUI Brick.
 It hasn't been tested on anything else.
 
-Just extract the content of the ZIP file at the root of your SD card.
-Once done, add your games to the Roms folder, using the *CPC* tag.
+Extract the content of the ZIP file at the root of your SD card.
+
+Once done, add your games to the Roms folder, using the *CPC* tag, for instance, create a folder named *Roms/Amstrad CPC (CPC)*.
+
 You can bring up the keyboard by pressing *select* and *start* at the same time.
 
-_Note_: the system is running at 50 fps (PAL). At the moment, NextUI is not able to deal with that. I've sent a PR which aims at supporting PAL systems, and I'm currently waiting for the proposal to be accepted. In the meantime, you may have to compile the PR by yourself...
+_Note_: this emulator requires NextUI version 2.6.3 or higher.
